@@ -1,0 +1,1 @@
+[{"vulnerability": "SQLi", "source": [["get"]], "sink": ["make_response"], "sanitizer": []}]
