@@ -1,0 +1,6 @@
+[
+  {"vulnerability": "SQL Injection",
+  "sources": ["get", "copy", "get_query_string", "get_user_or_404", "User", "get_object_or_404", "QueryDict", "ContactMailForm", "ChatMessageForm"],
+  "sanitizers": [],
+  "sinks": ["xpath"]}
+]

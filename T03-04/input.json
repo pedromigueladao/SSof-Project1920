@@ -1,0 +1,372 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "While",
+            "body": [
+                {
+                    "ast_type": "Assign",
+                    "col_offset": 4,
+                    "lineno": 2,
+                    "targets": [
+                        {
+                            "ast_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "ast_type": "Store"
+                            },
+                            "id": "a",
+                            "lineno": 2
+                        }
+                    ],
+                    "value": {
+                        "ast_type": "BinOp",
+                        "col_offset": 8,
+                        "left": {
+                            "ast_type": "Name",
+                            "col_offset": 8,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "a",
+                            "lineno": 2
+                        },
+                        "lineno": 2,
+                        "op": {
+                            "ast_type": "Add"
+                        },
+                        "right": {
+                            "args": [
+                                {
+                                    "ast_type": "Name",
+                                    "col_offset": 20,
+                                    "ctx": {
+                                        "ast_type": "Load"
+                                    },
+                                    "id": "a",
+                                    "lineno": 2
+                                }
+                            ],
+                            "ast_type": "Call",
+                            "col_offset": 12,
+                            "func": {
+                                "ast_type": "Name",
+                                "col_offset": 12,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "mogrify",
+                                "lineno": 2
+                            },
+                            "keywords": [],
+                            "lineno": 2
+                        }
+                    }
+                },
+                {
+                    "ast_type": "Assign",
+                    "col_offset": 4,
+                    "lineno": 3,
+                    "targets": [
+                        {
+                            "ast_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "ast_type": "Store"
+                            },
+                            "id": "a",
+                            "lineno": 3
+                        }
+                    ],
+                    "value": {
+                        "args": [
+                            {
+                                "ast_type": "Name",
+                                "col_offset": 16,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "a",
+                                "lineno": 3
+                            }
+                        ],
+                        "ast_type": "Call",
+                        "col_offset": 8,
+                        "func": {
+                            "ast_type": "Name",
+                            "col_offset": 8,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "execute",
+                            "lineno": 3
+                        },
+                        "keywords": [],
+                        "lineno": 3
+                    }
+                },
+                {
+                    "ast_type": "Assign",
+                    "col_offset": 4,
+                    "lineno": 4,
+                    "targets": [
+                        {
+                            "ast_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "ast_type": "Store"
+                            },
+                            "id": "a",
+                            "lineno": 4
+                        }
+                    ],
+                    "value": {
+                        "ast_type": "BinOp",
+                        "col_offset": 8,
+                        "left": {
+                            "ast_type": "Name",
+                            "col_offset": 8,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "a",
+                            "lineno": 4
+                        },
+                        "lineno": 4,
+                        "op": {
+                            "ast_type": "Add"
+                        },
+                        "right": {
+                            "args": [],
+                            "ast_type": "Call",
+                            "col_offset": 12,
+                            "func": {
+                                "ast_type": "Name",
+                                "col_offset": 12,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "get",
+                                "lineno": 4
+                            },
+                            "keywords": [],
+                            "lineno": 4
+                        }
+                    }
+                },
+                {
+                    "ast_type": "If",
+                    "body": [
+                        {
+                            "ast_type": "Assign",
+                            "col_offset": 8,
+                            "lineno": 6,
+                            "targets": [
+                                {
+                                    "ast_type": "Name",
+                                    "col_offset": 8,
+                                    "ctx": {
+                                        "ast_type": "Store"
+                                    },
+                                    "id": "a",
+                                    "lineno": 6
+                                }
+                            ],
+                            "value": {
+                                "ast_type": "BinOp",
+                                "col_offset": 12,
+                                "left": {
+                                    "ast_type": "Name",
+                                    "col_offset": 12,
+                                    "ctx": {
+                                        "ast_type": "Load"
+                                    },
+                                    "id": "a",
+                                    "lineno": 6
+                                },
+                                "lineno": 6,
+                                "op": {
+                                    "ast_type": "Add"
+                                },
+                                "right": {
+                                    "args": [],
+                                    "ast_type": "Call",
+                                    "col_offset": 16,
+                                    "func": {
+                                        "ast_type": "Name",
+                                        "col_offset": 16,
+                                        "ctx": {
+                                            "ast_type": "Load"
+                                        },
+                                        "id": "get",
+                                        "lineno": 6
+                                    },
+                                    "keywords": [],
+                                    "lineno": 6
+                                }
+                            }
+                        },
+                        {
+                            "ast_type": "Expr",
+                            "col_offset": 8,
+                            "lineno": 7,
+                            "value": {
+                                "args": [
+                                    {
+                                        "ast_type": "Name",
+                                        "col_offset": 16,
+                                        "ctx": {
+                                            "ast_type": "Load"
+                                        },
+                                        "id": "a",
+                                        "lineno": 7
+                                    }
+                                ],
+                                "ast_type": "Call",
+                                "col_offset": 8,
+                                "func": {
+                                    "ast_type": "Name",
+                                    "col_offset": 8,
+                                    "ctx": {
+                                        "ast_type": "Load"
+                                    },
+                                    "id": "execute",
+                                    "lineno": 7
+                                },
+                                "keywords": [],
+                                "lineno": 7
+                            }
+                        },
+                        {
+                            "ast_type": "If",
+                            "body": [
+                                {
+                                    "ast_type": "Expr",
+                                    "col_offset": 12,
+                                    "lineno": 9,
+                                    "value": {
+                                        "args": [
+                                            {
+                                                "ast_type": "Name",
+                                                "col_offset": 20,
+                                                "ctx": {
+                                                    "ast_type": "Load"
+                                                },
+                                                "id": "a",
+                                                "lineno": 9
+                                            }
+                                        ],
+                                        "ast_type": "Call",
+                                        "col_offset": 12,
+                                        "func": {
+                                            "ast_type": "Name",
+                                            "col_offset": 12,
+                                            "ctx": {
+                                                "ast_type": "Load"
+                                            },
+                                            "id": "execute",
+                                            "lineno": 9
+                                        },
+                                        "keywords": [],
+                                        "lineno": 9
+                                    }
+                                }
+                            ],
+                            "col_offset": 8,
+                            "lineno": 8,
+                            "orelse": [
+                                {
+                                    "ast_type": "Expr",
+                                    "col_offset": 12,
+                                    "lineno": 11,
+                                    "value": {
+                                        "args": [
+                                            {
+                                                "ast_type": "Name",
+                                                "col_offset": 20,
+                                                "ctx": {
+                                                    "ast_type": "Load"
+                                                },
+                                                "id": "b",
+                                                "lineno": 11
+                                            }
+                                        ],
+                                        "ast_type": "Call",
+                                        "col_offset": 12,
+                                        "func": {
+                                            "ast_type": "Name",
+                                            "col_offset": 12,
+                                            "ctx": {
+                                                "ast_type": "Load"
+                                            },
+                                            "id": "execute",
+                                            "lineno": 11
+                                        },
+                                        "keywords": [],
+                                        "lineno": 11
+                                    }
+                                }
+                            ],
+                            "test": {
+                                "ast_type": "NameConstant",
+                                "col_offset": 11,
+                                "lineno": 8,
+                                "value": "False"
+                            }
+                        }
+                    ],
+                    "col_offset": 4,
+                    "lineno": 5,
+                    "orelse": [
+                        {
+                            "ast_type": "Expr",
+                            "col_offset": 8,
+                            "lineno": 13,
+                            "value": {
+                                "args": [
+                                    {
+                                        "ast_type": "Name",
+                                        "col_offset": 16,
+                                        "ctx": {
+                                            "ast_type": "Load"
+                                        },
+                                        "id": "a",
+                                        "lineno": 13
+                                    }
+                                ],
+                                "ast_type": "Call",
+                                "col_offset": 8,
+                                "func": {
+                                    "ast_type": "Name",
+                                    "col_offset": 8,
+                                    "ctx": {
+                                        "ast_type": "Load"
+                                    },
+                                    "id": "execute",
+                                    "lineno": 13
+                                },
+                                "keywords": [],
+                                "lineno": 13
+                            }
+                        }
+                    ],
+                    "test": {
+                        "ast_type": "NameConstant",
+                        "col_offset": 7,
+                        "lineno": 5,
+                        "value": "True"
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "lineno": 1,
+            "orelse": [],
+            "test": {
+                "ast_type": "NameConstant",
+                "col_offset": 6,
+                "lineno": 1,
+                "value": "True"
+            }
+        }
+    ]
+}

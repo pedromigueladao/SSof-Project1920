@@ -1,0 +1,289 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 1,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "a",
+                    "lineno": 1
+                }
+            ],
+            "value": {
+                "args": [],
+                "ast_type": "Call",
+                "col_offset": 4,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 4,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "get",
+                    "lineno": 1
+                },
+                "keywords": [],
+                "lineno": 1
+            }
+        },
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 2,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "b",
+                    "lineno": 2
+                }
+            ],
+            "value": {
+                "ast_type": "Str",
+                "col_offset": 4,
+                "lineno": 2,
+                "s": "Ola"
+            }
+        },
+        {
+            "ast_type": "While",
+            "body": [
+                {
+                    "ast_type": "If",
+                    "body": [
+                        {
+                            "ast_type": "If",
+                            "body": [
+                                {
+                                    "ast_type": "If",
+                                    "body": [
+                                        {
+                                            "ast_type": "Assign",
+                                            "col_offset": 16,
+                                            "lineno": 7,
+                                            "targets": [
+                                                {
+                                                    "ast_type": "Name",
+                                                    "col_offset": 16,
+                                                    "ctx": {
+                                                        "ast_type": "Store"
+                                                    },
+                                                    "id": "b",
+                                                    "lineno": 7
+                                                }
+                                            ],
+                                            "value": {
+                                                "ast_type": "Str",
+                                                "col_offset": 20,
+                                                "lineno": 7,
+                                                "s": "Ola"
+                                            }
+                                        }
+                                    ],
+                                    "col_offset": 12,
+                                    "lineno": 6,
+                                    "orelse": [
+                                        {
+                                            "ast_type": "Assign",
+                                            "col_offset": 16,
+                                            "lineno": 9,
+                                            "targets": [
+                                                {
+                                                    "ast_type": "Name",
+                                                    "col_offset": 16,
+                                                    "ctx": {
+                                                        "ast_type": "Store"
+                                                    },
+                                                    "id": "b",
+                                                    "lineno": 9
+                                                }
+                                            ],
+                                            "value": {
+                                                "ast_type": "Str",
+                                                "col_offset": 20,
+                                                "lineno": 9,
+                                                "s": "Ola2"
+                                            }
+                                        }
+                                    ],
+                                    "test": {
+                                        "ast_type": "Name",
+                                        "col_offset": 15,
+                                        "ctx": {
+                                            "ast_type": "Load"
+                                        },
+                                        "id": "a",
+                                        "lineno": 6
+                                    }
+                                }
+                            ],
+                            "col_offset": 8,
+                            "lineno": 5,
+                            "orelse": [
+                                {
+                                    "ast_type": "Assign",
+                                    "col_offset": 12,
+                                    "lineno": 11,
+                                    "targets": [
+                                        {
+                                            "ast_type": "Name",
+                                            "col_offset": 12,
+                                            "ctx": {
+                                                "ast_type": "Store"
+                                            },
+                                            "id": "b",
+                                            "lineno": 11
+                                        }
+                                    ],
+                                    "value": {
+                                        "ast_type": "Str",
+                                        "col_offset": 16,
+                                        "lineno": 11,
+                                        "s": "Ola3"
+                                    }
+                                }
+                            ],
+                            "test": {
+                                "ast_type": "Name",
+                                "col_offset": 11,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "a",
+                                "lineno": 5
+                            }
+                        }
+                    ],
+                    "col_offset": 4,
+                    "lineno": 4,
+                    "orelse": [
+                        {
+                            "ast_type": "Assign",
+                            "col_offset": 8,
+                            "lineno": 13,
+                            "targets": [
+                                {
+                                    "ast_type": "Name",
+                                    "col_offset": 8,
+                                    "ctx": {
+                                        "ast_type": "Store"
+                                    },
+                                    "id": "b",
+                                    "lineno": 13
+                                }
+                            ],
+                            "value": {
+                                "ast_type": "Str",
+                                "col_offset": 12,
+                                "lineno": 13,
+                                "s": "Ola4"
+                            }
+                        }
+                    ],
+                    "test": {
+                        "ast_type": "Name",
+                        "col_offset": 7,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "a",
+                        "lineno": 4
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "lineno": 3,
+            "orelse": [],
+            "test": {
+                "ast_type": "Name",
+                "col_offset": 6,
+                "ctx": {
+                    "ast_type": "Load"
+                },
+                "id": "a",
+                "lineno": 3
+            }
+        },
+        {
+            "ast_type": "If",
+            "body": [
+                {
+                    "ast_type": "Assign",
+                    "col_offset": 4,
+                    "lineno": 15,
+                    "targets": [
+                        {
+                            "ast_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "ast_type": "Store"
+                            },
+                            "id": "b",
+                            "lineno": 15
+                        }
+                    ],
+                    "value": {
+                        "ast_type": "Str",
+                        "col_offset": 8,
+                        "lineno": 15,
+                        "s": "Ola5"
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "lineno": 14,
+            "orelse": [
+                {
+                    "ast_type": "Expr",
+                    "col_offset": 4,
+                    "lineno": 17,
+                    "value": {
+                        "args": [
+                            {
+                                "ast_type": "Name",
+                                "col_offset": 12,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "b",
+                                "lineno": 17
+                            }
+                        ],
+                        "ast_type": "Call",
+                        "col_offset": 4,
+                        "func": {
+                            "ast_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "execute",
+                            "lineno": 17
+                        },
+                        "keywords": [],
+                        "lineno": 17
+                    }
+                }
+            ],
+            "test": {
+                "ast_type": "Name",
+                "col_offset": 3,
+                "ctx": {
+                    "ast_type": "Load"
+                },
+                "id": "a",
+                "lineno": 14
+            }
+        }
+    ]
+}

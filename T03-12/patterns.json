@@ -1,0 +1,6 @@
+[
+  {"vulnerability": "XSS",
+  "sources": ["get", "copy", "get_query_string", "get_user_or_404", "User", "get_object_or_404", "QueryDict", "ContactMailForm", "ChatMessageForm"],
+  "sanitizers": ["clean", "escape", "flatatt", "input", "render_template", "render", "render_to_response", "BadRequest"],
+  "sinks": ["send_mail_jinja", "mark_safe", "Response", "Markup", "send_mail_jinja", "Raw", "HTMLString","make_response",  "render_template_string"]}
+]

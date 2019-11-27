@@ -1,0 +1,6 @@
+[
+  {"vulnerability": "Path Traversal",
+  "sources": ["get", "copy", "get_query_string", "get_user_or_404", "User", "get_object_or_404", "QueryDict", "ContactMailForm", "ChatMessageForm"],
+  "sanitizers": ["basename", "secure_filename"],
+  "sinks": ["send_from_directory", "send_file"]}
+]
