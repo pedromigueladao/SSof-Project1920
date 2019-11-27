@@ -1,0 +1,14 @@
+[
+    {
+        "vulnerability": "SQL Injection 14",
+        "source": "koneski",
+        "sink": "j",
+        "sanitizer": ""
+    },
+    {
+        "vulnerability": "SQL Injection 14",
+        "source": "b",
+        "sink": "j",
+        "sanitizer": ""
+    }
+]

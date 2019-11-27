@@ -1,0 +1,14 @@
+[
+    {
+        "vulnerability": "SQL injection",
+        "source": "source1",
+        "sink": "sink1",
+        "sanitizer": "sanitizer1"
+    },
+    {
+        "vulnerability": "XSS injection",
+        "source": "source2",
+        "sink": "sink2",
+        "sanitizer": ""
+    }
+]

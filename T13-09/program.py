@@ -1,0 +1,5 @@
+a = source1()
+b = sanitizer1(a)
+sink1(b)
+d = source2()
+sink2(d)
