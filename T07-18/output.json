@@ -1,0 +1,10 @@
+[
+    {"vulnerability":"X",
+    "source":"X_source",
+    "sanitizer":"X_sanitizer",
+    "sink":"X_sink"},
+    {"vulnerability":"Y",
+    "source":"Y_source",
+    "sanitizer":"",
+    "sink":"Y_sink"}
+]

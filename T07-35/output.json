@@ -1,0 +1,6 @@
+[
+    {"vulnerability":"slice12",
+    "source":["request", "args", "get", "engine"],
+    "sanitizer":"",
+    "sink":"execute"}
+]

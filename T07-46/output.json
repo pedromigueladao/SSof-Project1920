@@ -1,0 +1,11 @@
+[
+    {"vulnerability":"ultimate",
+    "source":"seq",
+    "sanitizer":"filename_cleaner",
+    "sink":"write"},
+
+    {"vulnerability":"ultimate",
+    "source":["input_folder", "output_folder", "op", "open"],
+    "sanitizer":"",
+    "sink":"write"}
+]
