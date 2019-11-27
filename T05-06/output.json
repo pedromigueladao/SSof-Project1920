@@ -1,0 +1,1 @@
+[{"source": "get", "vulnerability": "XSS", "sanitizer": "", "sink": "send_mail_jinja", "solutions": ["clean", "escape", "flatatt", "render_template", "render", "render_to_response"]}]

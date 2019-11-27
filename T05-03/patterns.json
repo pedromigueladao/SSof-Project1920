@@ -1,0 +1,7 @@
+[
+  {"vulnerability":"SQL injection",
+  "sources":["QueryDict", "ContactMailForm", "ChatMessageForm", "copy", "get_query_string"],
+  "sanitizers":["mogrify", "escape_string"],
+  "sinks":["raw", "RawSQL"]}
+
+]
