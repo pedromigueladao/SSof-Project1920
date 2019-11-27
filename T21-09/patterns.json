@@ -1,0 +1,8 @@
+[
+  {
+    "vulnerability": "SQL Injection",
+    "sources": ["f"],
+    "sanitizers": [],
+    "sinks": ["g"]
+  }
+]
