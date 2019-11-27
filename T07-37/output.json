@@ -1,0 +1,6 @@
+[
+    {"vulnerability":"slice2",
+    "source":"koneksi",
+    "sanitizer":"",
+    "sink":"y"}
+]

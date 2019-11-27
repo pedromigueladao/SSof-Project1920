@@ -1,0 +1,6 @@
+[
+    {"vulnerability":"ultimate",
+    "sources":["open"],
+    "sanitizers":["filename_cleaner"],
+    "sinks":["write"]}
+]

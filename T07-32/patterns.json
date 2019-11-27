@@ -1,0 +1,6 @@
+[
+    {"vulnerability":"slice11",
+    "sources":["b"],
+    "sanitizers":[],
+    "sinks":["z"]}
+]

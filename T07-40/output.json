@@ -1,0 +1,10 @@
+[
+    {"vulnerability":"slice4",
+    "source":["b", "koneksi"],
+    "sanitizer":"",
+    "sink":"y"},
+    {"vulnerability":"slice4",
+    "source":"koneksi",
+    "sanitizer":"",
+    "sink":"s"}
+]

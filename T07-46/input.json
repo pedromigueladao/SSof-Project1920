@@ -1,0 +1,459 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 1,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "content",
+                    "lineno": 1
+                }
+            ],
+            "value": {
+                "ast_type": "Str",
+                "col_offset": 10,
+                "lineno": 1,
+                "s": "Ultimate testing. Good Luck :)"
+            }
+        },
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 2,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "filename",
+                    "lineno": 2
+                }
+            ],
+            "value": {
+                "args": [
+                    {
+                        "args": [
+                            {
+                                "ast_type": "Name",
+                                "col_offset": 32,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "seq",
+                                "lineno": 2
+                            }
+                        ],
+                        "ast_type": "Call",
+                        "col_offset": 15,
+                        "func": {
+                            "ast_type": "Name",
+                            "col_offset": 15,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "filename_cleaner",
+                            "lineno": 2
+                        },
+                        "keywords": [],
+                        "lineno": 2
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 11,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 11,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "str",
+                    "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+            }
+        },
+        {
+            "ast_type": "If",
+            "body": [
+                {
+                    "ast_type": "Assign",
+                    "col_offset": 4,
+                    "lineno": 4,
+                    "targets": [
+                        {
+                            "ast_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "ast_type": "Store"
+                            },
+                            "id": "f",
+                            "lineno": 4
+                        }
+                    ],
+                    "value": {
+                        "args": [
+                            {
+                                "ast_type": "BinOp",
+                                "col_offset": 37,
+                                "left": {
+                                    "ast_type": "BinOp",
+                                    "col_offset": 13,
+                                    "left": {
+                                        "ast_type": "Name",
+                                        "col_offset": 13,
+                                        "ctx": {
+                                            "ast_type": "Load"
+                                        },
+                                        "id": "input_folder",
+                                        "lineno": 4
+                                    },
+                                    "lineno": 4,
+                                    "op": {
+                                        "ast_type": "Add"
+                                    },
+                                    "right": {
+                                        "ast_type": "Name",
+                                        "col_offset": 28,
+                                        "ctx": {
+                                            "ast_type": "Load"
+                                        },
+                                        "id": "filename",
+                                        "lineno": 4
+                                    }
+                                },
+                                "lineno": 4,
+                                "op": {
+                                    "ast_type": "Add"
+                                },
+                                "right": {
+                                    "ast_type": "Str",
+                                    "col_offset": 39,
+                                    "lineno": 4,
+                                    "s": ".txt"
+                                }
+                            },
+                            {
+                                "ast_type": "Str",
+                                "col_offset": 47,
+                                "lineno": 4,
+                                "s": "w"
+                            }
+                        ],
+                        "ast_type": "Call",
+                        "col_offset": 8,
+                        "func": {
+                            "ast_type": "Name",
+                            "col_offset": 8,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "open",
+                            "lineno": 4
+                        },
+                        "keywords": [],
+                        "lineno": 4
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "lineno": 3,
+            "orelse": [
+                {
+                    "ast_type": "Assign",
+                    "col_offset": 4,
+                    "lineno": 6,
+                    "targets": [
+                        {
+                            "ast_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "ast_type": "Store"
+                            },
+                            "id": "f",
+                            "lineno": 6
+                        }
+                    ],
+                    "value": {
+                        "args": [
+                            {
+                                "ast_type": "BinOp",
+                                "col_offset": 38,
+                                "left": {
+                                    "ast_type": "BinOp",
+                                    "col_offset": 13,
+                                    "left": {
+                                        "ast_type": "Name",
+                                        "col_offset": 13,
+                                        "ctx": {
+                                            "ast_type": "Load"
+                                        },
+                                        "id": "output_folder",
+                                        "lineno": 6
+                                    },
+                                    "lineno": 6,
+                                    "op": {
+                                        "ast_type": "Add"
+                                    },
+                                    "right": {
+                                        "ast_type": "Name",
+                                        "col_offset": 29,
+                                        "ctx": {
+                                            "ast_type": "Load"
+                                        },
+                                        "id": "filename",
+                                        "lineno": 6
+                                    }
+                                },
+                                "lineno": 6,
+                                "op": {
+                                    "ast_type": "Add"
+                                },
+                                "right": {
+                                    "ast_type": "Str",
+                                    "col_offset": 40,
+                                    "lineno": 6,
+                                    "s": ".txt"
+                                }
+                            },
+                            {
+                                "ast_type": "Str",
+                                "col_offset": 48,
+                                "lineno": 6,
+                                "s": "w"
+                            }
+                        ],
+                        "ast_type": "Call",
+                        "col_offset": 8,
+                        "func": {
+                            "ast_type": "Name",
+                            "col_offset": 8,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "open",
+                            "lineno": 6
+                        },
+                        "keywords": [],
+                        "lineno": 6
+                    }
+                }
+            ],
+            "test": {
+                "ast_type": "Compare",
+                "col_offset": 3,
+                "comparators": [
+                    {
+                        "ast_type": "Num",
+                        "col_offset": 9,
+                        "lineno": 3,
+                        "n": {
+                            "ast_type": "int",
+                            "n": 1,
+                            "n_str": "1"
+                        }
+                    }
+                ],
+                "left": {
+                    "ast_type": "Name",
+                    "col_offset": 3,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "op",
+                    "lineno": 3
+                },
+                "lineno": 3,
+                "ops": [
+                    {
+                        "ast_type": "Eq"
+                    }
+                ]
+            }
+        },
+        {
+            "ast_type": "Expr",
+            "col_offset": 0,
+            "lineno": 7,
+            "value": {
+                "args": [
+                    {
+                        "ast_type": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "content",
+                        "lineno": 7
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 0,
+                "func": {
+                    "ast_type": "Attribute",
+                    "attr": "write",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "lineno": 7,
+                    "value": {
+                        "ast_type": "Name",
+                        "col_offset": 0,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "f",
+                        "lineno": 7
+                    }
+                },
+                "keywords": [],
+                "lineno": 7
+            }
+        },
+        {
+            "ast_type": "Expr",
+            "col_offset": 0,
+            "lineno": 8,
+            "value": {
+                "args": [],
+                "ast_type": "Call",
+                "col_offset": 0,
+                "func": {
+                    "ast_type": "Attribute",
+                    "attr": "close",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "lineno": 8,
+                    "value": {
+                        "ast_type": "Name",
+                        "col_offset": 0,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "f",
+                        "lineno": 8
+                    }
+                },
+                "keywords": [],
+                "lineno": 8
+            }
+        },
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 9,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "size",
+                    "lineno": 9
+                }
+            ],
+            "value": {
+                "args": [
+                    {
+                        "ast_type": "Name",
+                        "col_offset": 11,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "content",
+                        "lineno": 9
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 7,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 7,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "len",
+                    "lineno": 9
+                },
+                "keywords": [],
+                "lineno": 9
+            }
+        },
+        {
+            "ast_type": "Expr",
+            "col_offset": 0,
+            "lineno": 10,
+            "value": {
+                "args": [
+                    {
+                        "args": [
+                            {
+                                "ast_type": "Name",
+                                "col_offset": 50,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "filename",
+                                "lineno": 10
+                            },
+                            {
+                                "ast_type": "Name",
+                                "col_offset": 60,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "size",
+                                "lineno": 10
+                            }
+                        ],
+                        "ast_type": "Call",
+                        "col_offset": 6,
+                        "func": {
+                            "ast_type": "Attribute",
+                            "attr": "format",
+                            "col_offset": 6,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "lineno": 10,
+                            "value": {
+                                "ast_type": "Str",
+                                "col_offset": 6,
+                                "lineno": 10,
+                                "s": "Successfully write {} sizes at {}!"
+                            }
+                        },
+                        "keywords": [],
+                        "lineno": 10
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 0,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "print",
+                    "lineno": 10
+                },
+                "keywords": [],
+                "lineno": 10
+            }
+        }
+    ]
+}
