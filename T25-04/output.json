@@ -1,0 +1,11 @@
+[
+    {
+        "vulnerability": "vulnerability 04",
+        "source": [
+            "indarg",
+            "b"
+        ],
+        "sinks": "z",
+        "sanitizers": []
+    }
+]

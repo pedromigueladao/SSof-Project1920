@@ -1,0 +1,5 @@
+ab = c("idt")
+cd = d(name)
+hamsun = t(cd)
+knut = myFunc(cd,ab,"hei",t(cd))
+z(knut,hamsun)

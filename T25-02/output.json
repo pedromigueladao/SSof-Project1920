@@ -1,0 +1,19 @@
+[
+    {
+        "vulnerability": "vulnerability 02",
+        "source": [
+            "koneksi",
+            "b"
+        ],
+        "sinks": "y",
+        "sanitizers": []
+    },
+    {
+        "vulnerability": "vulnerability 02",
+        "source": [
+            "koneksi"
+        ],
+        "sinks": "s",
+        "sanitizers": []
+    }
+]
