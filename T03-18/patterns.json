@@ -1,0 +1,16 @@
+[
+  {"vulnerability": "SQL injection",
+  "sources": ["get", "get_object_or_404", "QueryDict", "ContactMailForm", "ChatMessageForm"],
+  "sanitizers": ["mogrify", "escape_string"],
+  "sinks": ["execute"]},
+
+  {"vulnerability":"SQL injection",
+  "sources":["QueryDict", "ContactMailForm", "ChatMessageForm", "copy", "get_query_string"],
+  "sanitizers":["mogrify", "escape_string"],
+  "sinks":["raw", "RawSQL"]},
+
+  {"vulnerability":"XSS",
+  "sources":["get", "get_object_or_404", "QueryDict", "ContactMailForm", "ChatMessageForm"],
+  "sanitizers":["clean","escape","flatatt","render_template","render","render_to_response"],
+  "sinks":["send_mail_jinja","mark_safe","Response","Markup","send_mail_jinja","Raw"]}
+]

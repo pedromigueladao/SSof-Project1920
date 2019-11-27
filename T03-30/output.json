@@ -1,0 +1,1 @@
+[{'vulnerability': 'SQL injection', 'source': 'b', 'sink': 'raw', 'sanitizer': ''}, {'vulnerability': 'SQL injection', 'source': 'get', 'sink': 'raw', 'sanitizer': ''}, {'vulnerability': 'SQL injection', 'source': 'get', 'sink': 'raw', 'sanitizer': 'mogrify'}, {'vulnerability': 'SQL injection', 'source': 'get', 'sink': 'raw', 'sanitizer': 'mogrify'}]

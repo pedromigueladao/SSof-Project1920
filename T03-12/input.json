@@ -1,0 +1,113 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 1,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "request",
+                    "lineno": 1
+                }
+            ],
+            "value": {
+                "args": [],
+                "ast_type": "Call",
+                "col_offset": 10,
+                "func": {
+                    "ast_type": "Attribute",
+                    "attr": "get",
+                    "col_offset": 10,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "lineno": 1,
+                    "value": {
+                        "ast_type": "Attribute",
+                        "attr": "GET",
+                        "col_offset": 10,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "lineno": 1,
+                        "value": {
+                            "ast_type": "Name",
+                            "col_offset": 10,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "request",
+                            "lineno": 1
+                        }
+                    }
+                },
+                "keywords": [],
+                "lineno": 1
+            }
+        },
+        {
+            "ast_type": "Expr",
+            "col_offset": 0,
+            "lineno": 2,
+            "value": {
+                "args": [
+                    {
+                        "ast_type": "Name",
+                        "col_offset": 18,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "request",
+                        "lineno": 2
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 0,
+                "func": {
+                    "ast_type": "Attribute",
+                    "attr": "Raw",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "lineno": 2,
+                    "value": {
+                        "ast_type": "Attribute",
+                        "attr": "text",
+                        "col_offset": 0,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "lineno": 2,
+                        "value": {
+                            "ast_type": "Attribute",
+                            "attr": "sax",
+                            "col_offset": 0,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "lineno": 2,
+                            "value": {
+                                "ast_type": "Name",
+                                "col_offset": 0,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "suds",
+                                "lineno": 2
+                            }
+                        }
+                    }
+                },
+                "keywords": [],
+                "lineno": 2
+            }
+        }
+    ]
+}

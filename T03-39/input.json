@@ -1,0 +1,159 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 1,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "uname",
+                    "lineno": 1
+                }
+            ],
+            "value": {
+                "args": [],
+                "ast_type": "Call",
+                "col_offset": 8,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "copy",
+                    "lineno": 1
+                },
+                "keywords": [],
+                "lineno": 1
+            }
+        },
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 2,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "uname2",
+                    "lineno": 2
+                }
+            ],
+            "value": {
+                "args": [],
+                "ast_type": "Call",
+                "col_offset": 9,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 9,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "ChatMessageForm",
+                    "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+            }
+        },
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 3,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "q",
+                    "lineno": 3
+                }
+            ],
+            "value": {
+                "args": [
+                    {
+                        "ast_type": "BinOp",
+                        "col_offset": 72,
+                        "left": {
+                            "ast_type": "BinOp",
+                            "col_offset": 63,
+                            "left": {
+                                "ast_type": "BinOp",
+                                "col_offset": 14,
+                                "left": {
+                                    "ast_type": "Str",
+                                    "col_offset": 14,
+                                    "lineno": 3,
+                                    "s": "SELECT pass FROM users WHERE user='%s'"
+                                },
+                                "lineno": 3,
+                                "op": {
+                                    "ast_type": "Mod"
+                                },
+                                "right": {
+                                    "ast_type": "Name",
+                                    "col_offset": 57,
+                                    "ctx": {
+                                        "ast_type": "Load"
+                                    },
+                                    "id": "uname",
+                                    "lineno": 3
+                                }
+                            },
+                            "lineno": 3,
+                            "op": {
+                                "ast_type": "Mod"
+                            },
+                            "right": {
+                                "ast_type": "Name",
+                                "col_offset": 65,
+                                "ctx": {
+                                    "ast_type": "Load"
+                                },
+                                "id": "uname2",
+                                "lineno": 3
+                            }
+                        },
+                        "lineno": 3,
+                        "op": {
+                            "ast_type": "Mod"
+                        },
+                        "right": {
+                            "ast_type": "Name",
+                            "col_offset": 74,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "uname3",
+                            "lineno": 3
+                        }
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 4,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 4,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "mark_safe",
+                    "lineno": 3
+                },
+                "keywords": [],
+                "lineno": 3
+            }
+        }
+    ]
+}
