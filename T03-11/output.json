@@ -1,1 +1,1 @@
-[{'vulnerability': 'SQL Injection', 'source': 'get', 'sink': 'xpath', 'sanitizer': ''}]
+[{"vulnerability": "SQL Injection", "source": "get", "sink": "xpath", "sanitizer": ""}]

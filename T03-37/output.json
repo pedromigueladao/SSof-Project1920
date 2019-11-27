@@ -1,1 +1,1 @@
-[{'vulnerability': 'XSS', 'source': 'get_object_or_404', 'sink': 'mark_safe', 'sanitizer': 'clean'}, {'vulnerability': 'XSS', 'source': 'ContactMailForm', 'sink': 'mark_safe', 'sanitizer': ''}]
+[{"vulnerability": "XSS", "source": "get_object_or_404", "sink": "mark_safe", "sanitizer": "clean"}, {"vulnerability": "XSS", "source": "ContactMailForm", "sink": "mark_safe", "sanitizer": ""}]

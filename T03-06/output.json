@@ -1,1 +1,1 @@
-[{'vulnerability': 'OS Command Line Injection', 'source': 'get', 'sink': 'system', 'sanitizer': ''}]
+[{"vulnerability": "OS Command Line Injection", "source": "get", "sink": "system", "sanitizer": ""}]

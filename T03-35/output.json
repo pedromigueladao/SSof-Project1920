@@ -1,1 +1,1 @@
-[{'vulnerability': 'SQL injection', 'source': 'request', 'sink': 'execute', 'sanitizer': ''}, {'vulnerability': 'XSS', 'source': 'request', 'sink': 'mark_safe', 'sanitizer': ''}]
+[{"vulnerability": "SQL injection", "source": "request", "sink": "execute", "sanitizer": ""}, {"vulnerability": "XSS", "source": "request", "sink": "mark_safe", "sanitizer": ""}]

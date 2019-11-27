@@ -1,1 +1,1 @@
-[{'vulnerability': 'XSS', 'source': 'get', 'sink': 'Raw', 'sanitizer': ''}]
+[{"vulnerability": "XSS", "source": "get", "sink": "Raw", "sanitizer": ""}]
