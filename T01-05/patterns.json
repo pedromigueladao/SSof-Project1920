@@ -1,0 +1,42 @@
+[
+  {
+    "vulnerability": "SQL injection",
+    "sources": [
+      "a"
+    ],
+    "sanitizers": ["t"],
+    "sinks": [
+      "z"
+    ]
+  },
+  {
+    "vulnerability": "SQL injection",
+    "sources": [
+      "a"
+    ],
+    "sanitizers": [""],
+    "sinks": [
+      "z"
+    ]
+  },
+  {
+    "vulnerability": "SQL injection",
+    "sources": [
+      "b", "o", "w"
+    ],
+    "sanitizers": ["d", "r"],
+    "sinks": [
+      "z"
+    ]
+  },
+  {
+    "vulnerability": "SQL injection",
+    "sources": [
+      "t"
+    ],
+    "sanitizers": ["d", "r"],
+    "sinks": [
+      "z"
+    ]
+  }
+]
