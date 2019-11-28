@@ -1,0 +1,1 @@
+[{"vulnerability": "slice9", "sources": [], "sanitizers": [], "sinks": ["w"]}, {"vulnerability": "slice9", "sources": [], "sanitizers": [], "sinks": ["w"]}, {"vulnerability": "slice9", "sources": ["b"], "sanitizers": [], "sinks": ["w"]}, {"vulnerability": "slice9", "sources": ["b"], "sanitizers": [], "sinks": ["w"]}]
