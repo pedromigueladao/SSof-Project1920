@@ -1,0 +1,45 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Expr",
+            "col_offset": 0,
+            "lineno": 1,
+            "value": {
+                "args": [
+                    {
+                        "ast_type": "Name",
+                        "col_offset": 15,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "stmt",
+                        "lineno": 1
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 0,
+                "func": {
+                    "ast_type": "Attribute",
+                    "attr": "execute",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "lineno": 1,
+                    "value": {
+                        "ast_type": "Name",
+                        "col_offset": 0,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "engine",
+                        "lineno": 1
+                    }
+                },
+                "keywords": [],
+                "lineno": 1
+            }
+        }
+    ]
+}

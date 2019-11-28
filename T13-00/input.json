@@ -1,0 +1,36 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Expr",
+            "col_offset": 0,
+            "lineno": 1,
+            "value": {
+                "args": [
+                    {
+                        "ast_type": "Name",
+                        "col_offset": 2,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "xpto",
+                        "lineno": 1
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 0,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "a",
+                    "lineno": 1
+                },
+                "keywords": [],
+                "lineno": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Expr",
+            "col_offset": 0,
+            "lineno": 1,
+            "value": {
+                "args": [
+                    {
+                        "args": [
+                            {
+                                "args": [
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [],
+                                                "ast_type": "Call",
+                                                "col_offset": 31,
+                                                "func": {
+                                                    "ast_type": "Name",
+                                                    "col_offset": 31,
+                                                    "ctx": {
+                                                        "ast_type": "Load"
+                                                    },
+                                                    "id": "source2",
+                                                    "lineno": 1
+                                                },
+                                                "keywords": [],
+                                                "lineno": 1
+                                            }
+                                        ],
+                                        "ast_type": "Call",
+                                        "col_offset": 25,
+                                        "func": {
+                                            "ast_type": "Name",
+                                            "col_offset": 25,
+                                            "ctx": {
+                                                "ast_type": "Load"
+                                            },
+                                            "id": "sink2",
+                                            "lineno": 1
+                                        },
+                                        "keywords": [],
+                                        "lineno": 1
+                                    }
+                                ],
+                                "ast_type": "Call",
+                                "col_offset": 17,
+                                "func": {
+                                    "ast_type": "Name",
+                                    "col_offset": 17,
+                                    "ctx": {
+                                        "ast_type": "Load"
+                                    },
+                                    "id": "source1",
+                                    "lineno": 1
+                                },
+                                "keywords": [],
+                                "lineno": 1
+                            }
+                        ],
+                        "ast_type": "Call",
+                        "col_offset": 6,
+                        "func": {
+                            "ast_type": "Name",
+                            "col_offset": 6,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "sanitizer1",
+                            "lineno": 1
+                        },
+                        "keywords": [],
+                        "lineno": 1
+                    }
+                ],
+                "ast_type": "Call",
+                "col_offset": 0,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "id": "sink1",
+                    "lineno": 1
+                },
+                "keywords": [],
+                "lineno": 1
+            }
+        }
+    ]
+}
