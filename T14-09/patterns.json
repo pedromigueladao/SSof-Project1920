@@ -1,0 +1,16 @@
+[
+  {"vulnerability": "SQL injection",
+  "sources": ["s"],
+  "sanitizers": ["sanita"],
+  "sinks": ["execute"]},
+
+  {"vulnerability": "SQL injection",
+  "sources":["s"],
+  "sanitizers":["sanitize", "sanitize2"],
+  "sinks":["sink"]},
+
+  {"vulnerability": "XSS",
+  "sources":["xss_lel"],
+  "sanitizers":["sanitize"],
+  "sinks":["execute"]}
+]
