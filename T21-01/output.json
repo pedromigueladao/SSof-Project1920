@@ -1,0 +1,8 @@
+[
+  {
+    "vulnerability": "A vulnerability",
+    "source": "request_uname",
+    "sink": "execute",
+    "sanitizer": ""
+  }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "vulnerability": "XSS",
+        "source": "t",
+        "sink": "z",
+        "sanitizer": ""
+    }    
+]

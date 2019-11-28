@@ -1,0 +1,6 @@
+[
+  {"vulnerability": "A vulnerability",
+    "sources": ["title", "filename", "username", "id", "retrieve_uname"],
+    "sanitizers": ["shorten", "open", "markdown"],
+    "sinks": ["write", "post", "dup2", "execute"]}
+]

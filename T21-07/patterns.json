@@ -1,0 +1,8 @@
+[
+  {
+    "vulnerability": "Path Traversal",
+    "sources": ["f", "h"],
+    "sanitizers": ["x", "y", "z"],
+    "sinks": ["g", "h"]
+  }
+]
