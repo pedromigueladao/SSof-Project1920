@@ -1,0 +1,11 @@
+[
+  {
+    "vulnerability" : "SQLi",
+    "sources" : [
+      "get", "get_object_or_404", "QueryDict", "ContactMailForm", "ChatMessageFrom",
+      "copy", "get_query_string"
+    ],
+    "sanitizers" : ["mogrify", "escape_string"],
+    "sinks" : ["get_user_password"]
+  }
+]

@@ -1,0 +1,1 @@
+[{"vulnerability": "SQLi", "source": [["real_id"]], "sink": ["get_user_password_by_id"], "sanitizer": []}]
