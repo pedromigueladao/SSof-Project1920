@@ -1,0 +1,1 @@
+[{"source": "get", "vulnerability": "", "sanitizer": "escape_string", "sink": ""}]
