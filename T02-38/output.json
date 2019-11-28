@@ -1,0 +1,4 @@
+[{"vulnerability":"lama",
+"source":"query",
+"sink":"x",
+"sanitizer":""}]

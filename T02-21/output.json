@@ -1,0 +1,8 @@
+[{"vulnerability":"lama",
+"source":"koneksi",
+"sink":"y",
+"sanitizer":""},
+{"vulnerability":"lama",
+"source":"b",
+"sink":"y",
+"sanitizer":""}]

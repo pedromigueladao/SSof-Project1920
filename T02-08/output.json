@@ -1,0 +1,8 @@
+[{"vulnerability":"XSS",
+"source":"get",
+"sink":"send_mail_jinja",
+"sanitizer":""},
+{"vulnerability":"XSS",
+"source":"request",
+"sink":"send_mail_jinja",
+"sanitizer":""}]
