@@ -1,0 +1,5 @@
+uname = retrieve_uname(request)
+a = copy()
+b = 2 == (a and (uname + 2))
+Raw(b + 2)
+RawSQL(b == uname)

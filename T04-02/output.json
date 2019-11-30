@@ -1,0 +1,1 @@
+[{"vulnerability": "Path traversal", "sources": ["raw_input"], "sanitizers": [], "sinks": ["open"]}, {"vulnerability": "Python CMD injection", "sources": ["raw_input", "open"], "sanitizers": ["ourSanitizer"], "sinks": ["eval"]}]
