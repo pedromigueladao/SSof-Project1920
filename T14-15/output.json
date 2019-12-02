@@ -1,0 +1,14 @@
+[
+    {
+        "sink": "Response",
+        "sanitizer": "shower",
+        "source": "c",
+        "vulnerability": "SQL Injection"
+    },
+    {
+        "sink": "Markup",
+        "sanitizer": "",
+        "source": "get_name",
+        "vulnerability": "SQL Injection"
+    }
+]

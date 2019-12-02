@@ -1,0 +1,14 @@
+[
+    {
+        "sink": "execute",
+        "sanitizer": "sanitize",
+        "source": "xss_lel",
+        "vulnerability": "XSS"
+    },
+    {
+        "sink": "sink",
+        "sanitizer": "",
+        "source": "s",
+        "vulnerability": "SQL injection"
+    }
+]

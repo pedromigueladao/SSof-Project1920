@@ -1,0 +1,107 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 1,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "b",
+                    "lineno": 1
+                }
+            ],
+            "value": {
+                "ast_type": "Str",
+                "col_offset": 4,
+                "lineno": 1,
+                "s": "mars"
+            }
+        },
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 2,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "a",
+                    "lineno": 2
+                }
+            ],
+            "value": {
+                "ast_type": "Str",
+                "col_offset": 4,
+                "lineno": 2,
+                "s": "vasco"
+            }
+        },
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "lineno": 3,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "id": "a",
+                    "lineno": 3
+                }
+            ],
+            "value": {
+                "ast_type": "Tuple",
+                "col_offset": 5,
+                "ctx": {
+                    "ast_type": "Load"
+                },
+                "elts": [
+                    {
+                        "ast_type": "BinOp",
+                        "col_offset": 5,
+                        "left": {
+                            "ast_type": "Str",
+                            "col_offset": 5,
+                            "lineno": 3,
+                            "s": "hello %s world %s"
+                        },
+                        "lineno": 3,
+                        "op": {
+                            "ast_type": "Mod"
+                        },
+                        "right": {
+                            "ast_type": "Name",
+                            "col_offset": 27,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "id": "a",
+                            "lineno": 3
+                        }
+                    },
+                    {
+                        "ast_type": "Name",
+                        "col_offset": 30,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "id": "b",
+                        "lineno": 3
+                    }
+                ],
+                "lineno": 3
+            }
+        }
+    ]
+}
