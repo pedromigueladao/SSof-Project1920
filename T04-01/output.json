@@ -1,0 +1,1 @@
+[{"vulnerability": "Path traversal", "sources": ["input"], "sanitizers": ["abspath"], "sinks": ["open"]}]
