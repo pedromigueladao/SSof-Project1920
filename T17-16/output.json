@@ -1,0 +1,1 @@
+[{"source": [], "vulnerability": "SQLi", "sanitizer": ["escape_string"], "sink": []}]
