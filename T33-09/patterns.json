@@ -1,0 +1,6 @@
+[
+  {"vulnerability": "Ayylmao",
+  "sources": ["a"],
+  "sanitizers": ["s"],
+  "sinks": ["x"]}
+]

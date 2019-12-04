@@ -1,0 +1,8 @@
+[
+  {
+    "vulnerability": "SQL injection",
+    "source": "get_query_string",
+    "sink": "execute",
+    "sanitizer": ""
+  }
+]

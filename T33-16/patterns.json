@@ -1,0 +1,6 @@
+[
+  {"vulnerability": "Command injection",
+  "sources": ["get", "get_object_or_404", "QueryDict", "ContactMailForm", "ChatMessageForm"],
+  "sanitizers": ["escape_string"],
+  "sinks": ["run"]}
+]
