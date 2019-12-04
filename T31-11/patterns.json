@@ -1,0 +1,7 @@
+[
+  {"vulnerability":"Vulnerabilidade Teste",
+    "sources":["source"],
+    "sanitizers":[""],
+    "sinks":["function"]
+  }
+]
