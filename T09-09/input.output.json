@@ -1,0 +1,1 @@
+[{"vulnerability": "SQL injection", "source": ["ContactMailForm"], "sink": ["RawSQL"], "sanitizer": []}, {"vulnerability": "XSS", "source": ["ContactMailForm"], "sink": ["Response"], "sanitizer": ["flatatt"]}]
