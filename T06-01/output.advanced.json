@@ -1,0 +1,12 @@
+[
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            {
+                "source": "c",
+                "sanitizers": []
+            }
+        ],
+        "sink": "execute"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "vulnerability": "XSS",
+        "sources": [
+            {
+                "source": "c",
+                "sanitizers": []
+            }
+        ],
+        "sink": "mark_safe"
+    },
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            {
+                "source": "a",
+                "sanitizers": []
+            },
+            {
+                "source": "c",
+                "sanitizers": []
+            }
+        ],
+        "sink": "execute"
+    },
+    {
+        "vulnerability": "XSS",
+        "sources": [
+            {
+                "source": "get_object_or_404",
+                "sanitizers": []
+            }
+        ],
+        "sink": "send_mail_jinja"
+    }
+]
