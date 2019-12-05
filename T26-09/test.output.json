@@ -1,0 +1,1 @@
+[{'vulnerability': 'X', 'source': ['X_source'], 'sink': ['X_sink'], 'sanitizer': ''}, {'vulnerability': 'Y', 'source': ['Y_source'], 'sink': ['Y_sink'], 'sanitizer': ''}]

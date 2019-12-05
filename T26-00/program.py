@@ -1,0 +1,2 @@
+src = source()
+sink(src)
