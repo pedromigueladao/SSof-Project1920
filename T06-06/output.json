@@ -1,0 +1,26 @@
+[
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            "get"
+        ],
+        "sink": "raw",
+        "sanitizers": []
+    },
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            "get"
+        ],
+        "sink": "raw",
+        "sanitizers": []
+    },
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            "get"
+        ],
+        "sink": "raw",
+        "sanitizers": []
+    }
+]

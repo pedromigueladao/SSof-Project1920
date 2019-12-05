@@ -1,0 +1,58 @@
+[
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            {
+                "source": "b",
+                "sanitizers": []
+            },
+            {
+                "source": "QueryDict",
+                "sanitizers": []
+            }
+        ],
+        "sink": "raw"
+    },
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            {
+                "source": "b",
+                "sanitizers": []
+            },
+            {
+                "source": "QueryDict",
+                "sanitizers": []
+            }
+        ],
+        "sink": "raw"
+    },
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            {
+                "source": "b",
+                "sanitizers": []
+            },
+            {
+                "source": "QueryDict",
+                "sanitizers": []
+            }
+        ],
+        "sink": "raw"
+    },
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            {
+                "source": "b",
+                "sanitizers": []
+            },
+            {
+                "source": "QueryDict",
+                "sanitizers": []
+            }
+        ],
+        "sink": "raw"
+    }
+]

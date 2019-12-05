@@ -1,0 +1,19 @@
+[
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            "a"
+        ],
+        "sink": "RawSQL",
+        "sanitizers": []
+    },
+    {
+        "vulnerability": "SQL injection",
+        "sources": [
+            "a",
+            "ChatMessageForm"
+        ],
+        "sink": "RawSQL",
+        "sanitizers": []
+    }
+]
