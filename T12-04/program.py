@@ -1,0 +1,5 @@
+a = get()
+b = execute(mogrify(get()))
+print(b)
+mogrify(a)
+c = get()
