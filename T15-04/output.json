@@ -1,0 +1,11 @@
+[
+    {
+        "source": [
+            "copy",
+            "get"
+        ],
+        "vulnerability": "XSS",
+        "sink": "Raw",
+        "sanitizer": ""
+    }
+]
