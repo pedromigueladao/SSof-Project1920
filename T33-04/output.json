@@ -1,0 +1,14 @@
+[
+  {
+    "vulnerability": "Ayylmao",
+    "source": "a",
+    "sink": "t",
+    "sanitizer": ""
+  },
+  {
+    "vulnerability": "Ayylmao",
+    "source": "a",
+    "sink": "z",
+    "sanitizer": ""
+  }
+]

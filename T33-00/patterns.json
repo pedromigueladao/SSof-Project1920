@@ -1,0 +1,6 @@
+[
+  {"vulnerability": "Ayylmao",
+  "sources": ["a"],
+  "sanitizers": ["mogrify", "escape_string"],
+  "sinks": ["z"]}
+  ]

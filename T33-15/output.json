@@ -1,0 +1,20 @@
+[
+  {
+    "vulnerability": "XSS",
+    "source": "ContactMailForm",
+    "sink": "send_mail_jinja",
+    "sanitizer": ""
+  },
+  {
+    "vulnerability": "SQL injection",
+    "source": "ContactMailForm",
+    "sink": "execute",
+    "sanitizer": ""
+  },
+  {
+    "vulnerability": "SQL injection",
+    "source": "get_query_string",
+    "sink": "execute",
+    "sanitizer": ""
+  }
+]
