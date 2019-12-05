@@ -1,0 +1,1 @@
+[{"vulnerability": "SQL injection", "source": ["get"], "sink": ["execute"], "sanitizer": []}, {"vulnerability": "SQL injection", "source": ["get"], "sink": ["execute"], "sanitizer": ["mogrify"]}, {"vulnerability": "XSS", "source": ["c"], "sink": ["send_mail_jinja"], "sanitizer": []}]

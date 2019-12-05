@@ -1,0 +1,1 @@
+[{"vulnerability": "SQL injection", "source": ["koneksi"], "sink": ["y"], "sanitizer": []}]
