@@ -1,0 +1,17 @@
+[
+  {"vulnerability": "Ola",
+  "sources": ["get", "oi"],
+   "sanitizers": ["mogrify","clean"],
+   "sinks": ["execute","z"]},
+
+{"vulnerability": "Ola",
+  "sources": ["get2", "oi2"],
+   "sanitizers": ["mogrify2","clean2"],
+ "sinks": ["execute2","z2"]},
+
+    {"vulnerability": "Ola3",
+  "sources": ["get3", "oi3"],
+   "sanitizers": ["mogrify3","clean3"],
+   "sinks": ["execute3","z3"]}
+
+]
